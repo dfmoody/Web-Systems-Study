@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-tan: #b6997a;
+  --color-light-tan: #deccba;
+}
+/** TEXT **/
+body {
+  font-family: 'jost';
+  font-weight: 200;
+} 
+h1 {
+  margin: 5px 0px;
+  font-weight: 400;
+  font-size: 5rem;
+}
+h3 {
+  font-size: 15px;
+  font-weight: 300;
+}
+p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a {
+  color: #000;
+}
+
+
+
+/** COMPONENT 1 - HEADER GRID**/
+.header-container {
+  margin: 0px 0px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown {
+  text-align: left;
+  padding: 0px 30px;
+  font-size: 26px;
+}
+
+.site-name {
+}
+
+.header-icons {
+  text-align: right;
+  padding-right: 30px;
+  font-size: 19px;
+}
+.icon-header {
+  padding: 0px 10px;
+}
+.icon-list {
+  padding: 0px 0px;
+  margin: 0px 0px;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.icon-list a:hover {
+  color: #b6997a;
+}
+.dropdown a:hover {
+  color: #b6997a;
+}
+
+/** COMPONENT 1 - NAV GRID**/
+.nav-container{
+  font-size: 12px;
+  font-family: 'jost';
+  font-weight: 100;
+  display: grid;
+  grid-template-columns: 1fr 400px 1fr;
+  padding: 15px 0px;
+  border-top: 1px solid rgb(203, 203, 203);
+}
+
+.nav-menu{
+  grid-column: 2;
+  display: flex;
+  justify-content: space-between;
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr); */
+  text-decoration: none;
+  text-align: center;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+.nav-link  {
+  padding: 0px 10px;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: #b6997a;
+}
+
+/**  COMPONENT 2 - MAIN **/
+figure {
+  position: relative;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 40px;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #000000;
+}
+figcaption:hover {
+  cursor: pointer;
+}
+
+figcaption i:hover {
+  color: #deccba;
+}
+figcaption i {
+  font-size: 60px;
+}
+figcaption h2 {
+  margin-top: 30px;
+  font-size: 45px;
+}
+figcaption p {
+  margin-top: 15px;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+/**  COMPONENT 3 - CAROSEL **/
+.carosel h3 {
+  padding: 10px 0px;
+}
+.card-details {
+  padding: 15px 0px;
+}
+.carosel {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px 10px;
+  border-top: 3px solid #deccba;
+  border-bottom: 3px solid #deccba;
+}
+.card-image {
+  width: 250px;
+  height: 160px;
+}
+.image-container {
+  display: flex;
+  width: 250px;
+  height: auto;
+  background-color: bisque;
+  position: relative;
+}
+
+.card-timebox {
+  opacity: 90%;
+  background-color: #000;
+  width: 42px;
+  height: 26px;
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  padding: 6px;
+  bottom: 0px;
+  left: 208px;
+}
+
+.last-image-carosel {
+  position: absolute;
+  bottom: 58px;
+  right: -24px;
+}
+
+.last-image-carosel:hover {
+  cursor: pointer;
+}
