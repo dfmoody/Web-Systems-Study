@@ -1,6 +1,6 @@
 # Web-Systems-Study
 
->Case Study Project - Web Componenet Library
+>Case Study Project - Web Component Library
 
 ##Author
 
