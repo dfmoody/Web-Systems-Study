@@ -10,15 +10,44 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/normalize.css">
     <script src="https://kit.fontawesome.com/7023abba24.js" crossorigin="anonymous"></script>
+    <style>
+        .component__header {
+            font-size: 30px;
+            margin: 20px 10px;
+        }
+        .component img {
+            display: block;
+            max-width: 100%;
+        }
+        .component__image {
+            border: 1px solid #ccc;
+            overflow-x: auto;
+        }
+        .component__code {
+            border: 1px solid #ccc;
+        }
+    </style>
 </head>
 <body>
-    <h1>Web Components</h1>
+    <h1 class="component__header">Web Components</h1>
 
-    <h2>Typography Defaults</h2>
+    <h2 class="component__header">Typography Defaults</h2>
+
     <article class="component">
         <h3 class="component__name">Body</h3>
         <div class="component__image">
-            <img src="img/HeaderNav.png" alt="header image" width="300px">
+            <img src="img/HeaderNav.png" alt="header image">
+        </div>
+        <div class="component__code">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, libero. Ipsam neque maxime veniam recusandae! Magni fugiat porro recusandae at in molestias reiciendis, dolor, ullam fugit, quidem nulla! Neque, laudantium.
+            </p>
+        </div>
+    </article>
+
+    <article class="component">
+        <h3 class="component__name">Body</h3>
+        <div class="component__image">
+            <img src="img/HeaderNav.png" alt="header image">
         </div>
         <div class="component__code">
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, libero. Ipsam neque maxime veniam recusandae! Magni fugiat porro recusandae at in molestias reiciendis, dolor, ullam fugit, quidem nulla! Neque, laudantium.
@@ -26,6 +55,5 @@
         </div>
     </article>
     
-
 </body>
 </html>
