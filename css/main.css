@@ -8,6 +8,7 @@
 html {
   box-sizing: border-box;
   --color-black: #000;
+  --color-lightgrey: #b8b8b8;
   --color-white: #fff;
   --color-tan: #b6997a;
   --color-light-tan: #deccba;
@@ -17,7 +18,7 @@ body {
   font-family: 'jost';
   font-weight: 200;
 } 
-h1 {
+.site-name, h1 {
   margin: 5px 0px;
   font-weight: 400;
   font-size: 5rem;
@@ -27,15 +28,52 @@ h3 {
   font-weight: 300;
 }
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
+  line-height: 1.7;
 }
 
 a {
   color: #000;
 }
 
+/** COMPONENT A - TYPOGRAPHY **/
 
+.component__header {
+  line-height: 1.1;
+  font-size: 70px;
+  margin: 20px 0px;
+}
+.component__p {
+  font-size: 20px;
+  margin: 30px 0px;
+}
+.component img {
+  display: block;
+  max-width: 100%;
+}
+.component__image {
+  border: 1px solid #ccc;
+  overflow-x: auto;
+}
+.component__code {
+  border: 1px solid #ccc;
+}
+.component__title {
+  margin-top: 30px;
+  font-weight: 300;
+  padding: 5px 5px;
+  font-size: 20px;
+  color: white;
+  background-color: #000;
+}
+.component__name {
+  font-size: 20px;
+  padding: 5px 5px;
+  font-size: 20px;
+  color: white;
+  background-color: #b8b8b8;
+}
 
 /** COMPONENT 1 - HEADER GRID**/
 .header-container {
@@ -166,9 +204,8 @@ figcaption p {
   border-bottom: 3px solid #deccba;
 }
 .card-image {
-  width: 250px;
-  height: 160px;
 }
+
 .image-container {
   display: flex;
   width: 250px;
