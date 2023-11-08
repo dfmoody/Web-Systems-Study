@@ -196,3 +196,7 @@ figcaption p {
 .last-image-carosel:hover {
   cursor: pointer;
 }
+
+.carosel-card {
+  padding: 0px 10px;
+}
