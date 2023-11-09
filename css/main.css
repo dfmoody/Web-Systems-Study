@@ -211,7 +211,6 @@ figcaption p {
 
 .image-container {
   display: flex;
-  width: 250px;
   height: auto;
   background-color: bisque;
   position: relative;
@@ -227,13 +226,15 @@ figcaption p {
   position: absolute;
   padding: 6px;
   bottom: 0px;
-  left: 208px;
+  right: 0px;
 }
 
 .last-image-carosel {
   position: absolute;
-  bottom: 58px;
-  right: -24px;
+  bottom: 150px;
+  right: 0;
+  /* bottom: 58px;
+  right: -24px; */
 }
 
 .last-image-carosel:hover {
@@ -248,5 +249,8 @@ figcaption p {
   overflow-x: hidden;
 }
 .extra {
-  padding: 30px 0px;
+  padding: 30px 5px;
+}
+.carosel-container {
+  position: relative;
 }
