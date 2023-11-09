@@ -6,6 +6,7 @@
   padding: 0px;
 }
 html {
+  padding: 20px;
   box-sizing: border-box;
   --color-black: #000;
   --color-lightgrey: #b8b8b8;
@@ -53,26 +54,28 @@ a {
   max-width: 100%;
 }
 .component__image {
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   overflow-x: auto;
 }
 .component__code {
-  border: 1px solid #ccc;
+  padding: 5px;
+  border: 1px solid #000000;
 }
 .component__title {
   margin-top: 30px;
   font-weight: 300;
-  padding: 5px 5px;
+  padding: 5px 15px;
   font-size: 20px;
   color: white;
   background-color: #000;
 }
 .component__name {
   font-size: 20px;
-  padding: 5px 5px;
+  font-weight: 400;
+  padding: 5px 15px;
   font-size: 20px;
-  color: white;
-  background-color: #b8b8b8;
+  color: rgb(0, 0, 0);
+  background-color: #deccba;
 }
 
 /** COMPONENT 1 - HEADER GRID**/
@@ -239,4 +242,11 @@ figcaption p {
 
 .carosel-card {
   padding: 0px 10px;
+}
+
+.carosel-over {
+  overflow-x: hidden;
+}
+.extra {
+  padding: 30px 0px;
 }

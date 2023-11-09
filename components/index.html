@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/7023abba24.js" crossorigin="anonymous"></script>
 </head>
 <body>
-     <!-- Component 1: Header & Main Nav-->
+     <!-- Component A: Typography - Body, H1,H2,H3..., a-->
 
     <h1 class="component__header">Web Design System</h1>
 
@@ -21,96 +21,126 @@
     <article class="component">
         <h2 class="component__title">TYPOGRAPHY</h2>
         <h3 class="component__name">body</h3>
+
         <div class="component__image">
             <img src="img/body.png" alt="header image" width="510">
         </div>
+
         <div class="component__code">
             <p>Ryan Zemke revisits lives lived through the imagination, and the
             </p>
             <p>people and places that define both our memories and sense of self</p>
         </div>
     </article>
+    <!-- Component B: Atoms: Wordmark, Nav-Toggle, Button-->
 
     <!-- Component 1: Header & Main Nav-->
-    <h2 class="component__title">PAGE HEADER</h2>
-    <h3 class="component__name">.header</h3>
-    <img src="img/HeaderNav.png" alt="Screenshot of Website" width="1100">
+    <article class="component">
+        <h2 class="component__title">PAGE HEADER</h2>
 
-    <header class="header-container">
-        <div class="dropdown"><a href="#"><i class="fa-solid fa-bars"></i></a>
-        </div>
-            
-        <h1 class="site-name">NOWNESS</h1>
+        <h3 class="component__name">.header</h3>
 
-        <div class="header-icons">
-          <ul class="icon-list">
-            <li class="icon-header"><a href="#"><i class="fa-solid fa-magnifying-glass fa-rotate-90"></i></a></li>
-            <li class="icon-header"><a href="#"><i class="fa-solid fa-play"></i></a></li>
-            <li class="icon-header"><a href="#"><i class="fa-solid fa-user"></i></a></li>
-          </ul>
+        <div class="component__image">
+        <img src="img/HeaderNav.png" alt="Screenshot of Website" width="1100">
         </div>
-    </header>
     
-    <nav class="nav-container">
-      <div class="nav-menu">
-        <a href="#" class="nav-link">SERIES</a>
-        <a href="#" class="nav-link">TOPICS</a>
-        <a href="#" class="nav-link">PICKS</a>
-        <a href="#" class="nav-link">SPECIAL PROGRAMS</a>
-      </div>
-    </nav>
+        <div class="component__code">
+            <header class="header-container">
+                <div class="dropdown"><a href="#"><i class="fa-solid fa-bars"></i></a>
+                </div>
+                    
+                <h1 class="site-name">NOWNESS</h1>
+
+                <div class="header-icons">
+                <ul class="icon-list">
+                    <li class="icon-header"><a href="#"><i class="fa-solid fa-magnifying-glass fa-rotate-90"></i></a></li>
+                    <li class="icon-header"><a href="#"><i class="fa-solid fa-play"></i></a></li>
+                    <li class="icon-header"><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                </ul>
+                </div>
+            </header>
+            <nav class="nav-container">
+            <div class="nav-menu">
+                <a href="#" class="nav-link">SERIES</a>
+                <a href="#" class="nav-link">TOPICS</a>
+                <a href="#" class="nav-link">PICKS</a>
+                <a href="#" class="nav-link">SPECIAL PROGRAMS</a>
+            </div>
+            </nav>
+        </div>  
+    </article>
 
     <!-- Component 2: Main: Image, Video Play, Header, Paragraph -->
-    <h2 class="component__title">MAIN SECTION</h2>
-    <h3 class="component__name">.main</h3>
-    <main>
-    <img src="img/Main.jpg" alt="Screenshot of Website" width="1100">
-    <figure class="main-container">
-      <img class="main-image" src="https://source.unsplash.com/random/1100x600?v=5" alt="random unsplash image">
-      <figcaption> 
-        <i class="fa-regular fa-circle-play"></i>
-        <h2>Process and Focus</h2>
-        <p>Travelling through Peru, fasion brand Lauren Manoogian finds clarity in the craft that brings its vision into being.</p>
-      </figcaption>
-    </figure>
-    </main>
-    <h2 class="component__title">CAROSEL</h2>
-    <h3 class="component__name">.carosel</h3>
-    <img src="img/Carosel.jpg" alt="Screenshot of Website" width="1100">
-    <section class="carosel">
-      <div class="carosel-card">
-        <h3>October 30</h3>
-        <div class="image-container">
-          <img class="card-image" src="https://source.unsplash.com/random/250x160?v=1" alt="random unsplash image">
-          <p class="card-timebox"> 12:19</p>
+    <article class="component">
+        <h2 class="component__title">MAIN SECTION</h2>
+        <h3 class="component__name">.main</h3>
+        
+
+        <div class="component__image">
+            <img src="img/Main.jpg" alt="Screenshot of Website" width="1100">
         </div>
-        <p class="card-details">Private View: Limb after Limb</p>
-      </div>
-      <div class="carosel-card">
-        <h3>October 27</h3>
-        <div class="image-container">
-          <img class="card-image" src="https://source.unsplash.com/random/250x160?v=2" alt="random unsplash image">
-          <p class="card-timebox"> 19:04</p>
+
+        <div class="component__code">
+            <main> 
+            <figure class="main-container">
+            <img class="main-image" src="https://source.unsplash.com/random/1100x600?v=5" alt="random unsplash image">
+            <figcaption> 
+                <i class="fa-regular fa-circle-play"></i>
+                <h2>Process and Focus</h2>
+                <p>Travelling through Peru, fasion brand Lauren Manoogian finds clarity in the craft that brings its vision into being.</p>
+            </figcaption>
+            </figure>
+            </main>
+        </div>   
+    </article>
+
+    <!-- Component 3: Carosel -->    
+    <article class="component carosel-over">
+        <h2 class="component__title">CAROSEL</h2>
+
+        <h3 class="component__name">.carosel</h3>
+
+        <div class="component__image">
+            <img src="img/Carosel.jpg" alt="Screenshot of Website" width="1100">
         </div>
-        <p class="card-details">NOWNESS Shorts: Blood Rites.</p>
-      </div>
-      <div class="carosel-card">
-        <h3>October 25</h3>
-        <div class="image-container">
-          <img class="card-image" src="https://source.unsplash.com/random/250x160?v=3" alt="random unsplash image">
-          <p class="card-timebox"> 02:32</p>
-        </div>
-        <p class="card-details">Video Art Visions: Quiladelphia</p>
-      </div>
-      <div class="carosel-card">
-        <h3>October 23</h3>
-        <div class="image-container">
-          <img class="card-image" src="https://source.unsplash.com/random/250x160?v=4" alt="random unsplash image">
-          <p class="card-timebox"> 03:53</p>
-          <img class="last-image-carosel" src="img/caroselarrow.jpg" alt="left facing arrow" height="40">
-        </div>
-        <p class="card-details">Great Escapes: La Iglesia de Tas</p>
-      </div>
-    </section>
+
+        <div class="component__code extra">
+            <section class="carosel">
+            <div class="carosel-card">
+                <h3>October 30</h3>
+                <div class="image-container">
+                <img class="card-image" src="https://source.unsplash.com/random/250x160?v=1" alt="random unsplash image">
+                <p class="card-timebox"> 12:19</p>
+                </div>
+                <p class="card-details">Private View: Limb after Limb</p>
+            </div>
+            <div class="carosel-card">
+                <h3>October 27</h3>
+                <div class="image-container">
+                <img class="card-image" src="https://source.unsplash.com/random/250x160?v=2" alt="random unsplash image">
+                <p class="card-timebox"> 19:04</p>
+                </div>
+                <p class="card-details">NOWNESS Shorts: Blood Rites.</p>
+            </div>
+            <div class="carosel-card">
+                <h3>October 25</h3>
+                <div class="image-container">
+                <img class="card-image" src="https://source.unsplash.com/random/250x160?v=3" alt="random unsplash image">
+                <p class="card-timebox"> 02:32</p>
+                </div>
+                <p class="card-details">Video Art Visions: Quiladelphia</p>
+            </div>
+            <div class="carosel-card">
+                <h3>October 23</h3>
+                <div class="image-container">
+                <img class="card-image" src="https://source.unsplash.com/random/250x160?v=4" alt="random unsplash image">
+                <p class="card-timebox"> 03:53</p>
+                <img class="last-image-carosel" src="img/caroselarrow.jpg" alt="left facing arrow" height="40">
+                </div>
+                <p class="card-details">Great Escapes: La Iglesia de Tas</p>
+            </div>
+            </section>
+        </div>    
+    </article>    
 </body>
 </html>
