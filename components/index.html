@@ -12,18 +12,18 @@
     <script src="https://kit.fontawesome.com/7023abba24.js" crossorigin="anonymous"></script>
 </head>
 <body>
-     <!-- Component A: Typography - Body, H1,H2,H3..., a-->
-
     <h1 class="component__header">Web Design System</h1>
 
     <p class="component__p">This is a collection of components based on my study of the design system from the NOWNESS website.</p>
-
+   
+    <!-- Section 1: Typography -->
+    <!-- Components: Body, H1,H2,h4..., a-->
     <article class="component">
         <h2 class="component__title">TYPOGRAPHY</h2>
-        <h3 class="component__name">.body</h3>
+        <h4 class="component__name">body</h4>
 
         <div class="component__image">
-            <img src="img/body.png" alt="header image" width="510">
+            <img src="img/body.png" alt="body text image" width="510">
             <p class="name-box">IMG</p>
         </div>
 
@@ -34,13 +34,73 @@
         <p class="name-box">CODE</p>
         </div>
     </article>
-    <!-- Component B: Atoms: Wordmark, Nav-Toggle, Button-->
+    <article class="component">
+        <h4 class="component__name">h1,h2,h3,h4,5</h4>
 
-    <!-- Component 1: Header & Main Nav-->
+        <div class="component__image">
+            <img class="site-image" src="img/H1.png" alt="header 1 image" width="410">
+            <img src="img/H2b.png" alt="header 2 image" width="410">
+            <img src="img/H3.png" alt="header 3 image" width="190">
+            <img src="img/H4.png" alt="header 4 image" width="100">
+            <img src="img/H5.png" alt="header 5 image" width="180">
+            <p class="name-box">IMG</p>
+        </div>
+
+        <div class="component__code header-examples">
+            <h1>NOWNESS</h1>
+            <h2>PROCESS & FOCUS</h2>
+            <h3>TIME & PLACE</h3>
+            <h4>October 30</h4>
+            <h5>Just Dance: Sink or Swim</h5>
+        <p class="name-box">CODE</p>
+        </div>
+    </article>
+
+
+    <!-- Section 2: Atoms -->
+    <!-- Components: Nav-Toggle, Icons, Button-->
+    <article class="component">
+        <h2 class="component__title">ATOMS</h2>
+        <h4 class="component__name ">.nav-toggle</h4>
+
+        <div class="component__image">
+            <img src="img/nav-toggle.jpg" alt="body text image" width="60" class="nav-space">
+            <p class="name-box">IMG</p>
+        </div>
+
+        <div class="component__code">
+            <div class="dropdown"><a href="#"><i class="fa-solid fa-bars"></i></a>
+            </div>
+        <p class="name-box">CODE</p>
+        </div>
+    </article>
+    <article class="component">
+        <h4 class="component__name ">.icons</h4>
+
+        <div class="component__image">
+            <img src="img/Header-Icons.jpg" alt="body text image" width="150" class="nav-space">
+            <p class="name-box">IMG</p>
+        </div>
+
+        <div class="component__code">
+            <div class="atom-icons">
+                <ul class="icon-list">
+                    <li class="icon-header"><a href="#"><i class="fa-solid fa-magnifying-glass fa-rotate-90"></i></a></li>
+                    <li class="icon-header"><a href="#"><i class="fa-solid fa-play"></i></a></li>
+                    <li class="icon-header"><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                </ul>
+            </div>
+        <p class="name-box">CODE</p>
+        </div>
+    </article>
+
+    <!-- Section 3: Header-->
+    <!-- Components: Header & Main Nav-->
+
     <article class="component">
         <h2 class="component__title">PAGE HEADER</h2>
 
-        <h3 class="component__name">.header</h3>
+        <h4 class="component__name">.header</h4>
 
         <div class="component__image">
             <img src="img/HeaderNav.png" alt="Screenshot of Website" width="1100">
@@ -52,7 +112,7 @@
                 <div class="dropdown"><a href="#"><i class="fa-solid fa-bars"></i></a>
                 </div>
                     
-                <h1 class="site-name">NOWNESS</h1>
+                <h1>NOWNESS</h1>
 
                 <div class="header-icons">
                 <ul class="icon-list">
@@ -73,11 +133,11 @@
             </nav>
         </div>  
     </article>
-
-    <!-- Component 2: Main: Image, Video Play, Header, Paragraph -->
+    <!-- Section 4: Main-->
+    <!-- Components: Main: Image, Video Play, Header, Paragraph -->
     <article class="component">
         <h2 class="component__title">MAIN SECTION</h2>
-        <h3 class="component__name">.main</h3>
+        <h4 class="component__name">.main</h4>
         
 
         <div class="component__image">
@@ -100,11 +160,12 @@
         </div>   
     </article>
 
-    <!-- Component 3: Carosel -->    
+     <!-- Section 5: Carosel-->
+    <!-- Components: Image, Timebox, H4, Paragraph -->    
     <article class="component carosel-over">
         <h2 class="component__title">CAROSEL</h2>
 
-        <h3 class="component__name">.carosel</h3>
+        <h4 class="component__name">.carosel</h4>
 
         <div class="component__image">
             <img src="img/Carosel.jpg" alt="Screenshot of Website" width="1100">
@@ -115,7 +176,7 @@
             <div class="carosel-container">
             <section class="carosel">
                 <div class="carosel-card">
-                    <h3>October 30</h3>
+                    <h4>October 30</h4>
                     <div class="image-container">
                     <img class="card-image" src="../img/carosel1.jpg" alt="random unsplash image">
                     <p class="card-timebox"> 12:19</p>
@@ -123,7 +184,7 @@
                     <p class="card-details">Private View: Limb after Limb</p>
                 </div>
                 <div class="carosel-card">
-                    <h3>October 27</h3>
+                    <h4>October 27</h4>
                     <div class="image-container">
                     <img class="card-image" src="../img/carosel2b.jpg" alt="random unsplash image">
                     <p class="card-timebox"> 19:04</p>
@@ -131,7 +192,7 @@
                     <p class="card-details">NOWNESS Shorts: Blood Rites.</p>
                 </div>
                 <div class="carosel-card">
-                    <h3>October 25</h3>
+                    <h4>October 25</h4>
                     <div class="image-container">
                     <img class="card-image" src="../img/carosel3b.jpg" alt="random unsplash image">
                     <p class="card-timebox"> 02:32</p>
@@ -139,7 +200,7 @@
                     <p class="card-details">Video Art Visions: Quiladelphia</p>
                 </div>
                 <div class="carosel-card">
-                    <h3>October 23</h3>
+                    <h4>October 23</h4>
                     <div class="image-container">
                     <img class="card-image" src="../img/carosel4b.jpg" alt="random unsplash image">
                     <p class="card-timebox"> 03:53</p>
@@ -151,6 +212,7 @@
             </div>
             <p class="name-box">CODE</p>
         </div>    
-    </article>    
+    </article>  
+
 </body>
 </html>

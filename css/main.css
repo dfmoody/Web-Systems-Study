@@ -19,14 +19,38 @@ body {
   font-family: 'jost';
   font-weight: 200;
 } 
-.site-name, h1 {
+
+.header-container h1 {
   margin: 5px 0px;
   font-weight: 400;
   font-size: 5rem;
 }
+.component__code h1 {
+  margin: 5px 0px;
+  font-weight: 400;
+  font-size: 5rem;
+}
+.header-examples h1,h2,h3,h4,h5 {
+  padding-bottom: 10px;
+}
+.header-examples h2 {
+  margin-top: 0px;
+}
+h2 {
+  margin-top: 30px;
+  font-size: 40px;
+}
 h3 {
+  font-size: 25px;
+  font-weight: 300;  
+}
+h4 {
   font-size: 15px;
   font-weight: 300;
+}
+h5 {
+  font-size: 15px;
+  font-weight: 500;
 }
 p {
   font-size: 18px;
@@ -38,7 +62,7 @@ a {
   color: #000;
 }
 
-/** COMPONENT A - TYPOGRAPHY **/
+/** General Component Style **/
 
 .component__header {
   line-height: 1.1;
@@ -62,6 +86,7 @@ a {
   position: relative;
   padding: 5px;
   border: 1px solid #000000;
+  margin-bottom: 30px;
 }
 .component__title {
   margin-top: 30px;
@@ -88,6 +113,17 @@ a {
   padding: 0px 10px;
   font-size: 15px;
 }
+.site-image {
+  margin-bottom: 6px;
+}
+.nav-space {
+  margin-left: 18px;
+}
+.atom-icons {
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
 
 /** COMPONENT 1 - HEADER GRID**/
 .header-container {
@@ -103,9 +139,6 @@ a {
   text-align: left;
   padding: 0px 30px;
   font-size: 26px;
-}
-
-.site-name {
 }
 
 .header-icons {
@@ -145,8 +178,6 @@ a {
   grid-column: 2;
   display: flex;
   justify-content: space-between;
-  /* display: grid;
-  grid-template-columns: repeat(4, 1fr); */
   text-decoration: none;
   text-align: center;
   padding: 0px 0px;
@@ -192,10 +223,7 @@ figcaption i:hover {
 figcaption i {
   font-size: 50px;
 }
-figcaption h2 {
-  margin-top: 30px;
-  font-size: 45px;
-}
+
 figcaption p {
   margin-top: 15px;
   font-weight: 200;
@@ -203,7 +231,7 @@ figcaption p {
 }
 
 /**  COMPONENT 3 - CAROSEL **/
-.carosel h3 {
+.carosel h4 {
   padding: 10px 0px;
 }
 .card-details {
