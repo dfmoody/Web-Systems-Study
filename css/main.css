@@ -1,3 +1,5 @@
+/** GENERAL **/
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -14,6 +16,7 @@ html {
   --color-tan: #b6997a;
   --color-light-tan: #deccba;
 }
+
 /** TEXT **/
 body {
   font-family: 'jost';
@@ -41,8 +44,10 @@ h2 {
   font-size: 40px;
 }
 h3 {
-  font-size: 25px;
-  font-weight: 300;  
+  font-size: 20px;
+  font-weight: 300; 
+  padding-top: 15px;
+  padding-bottom: 15px; 
 }
 h4 {
   font-size: 15px;
@@ -125,7 +130,7 @@ a {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-/** COMPONENT 1 - HEADER GRID**/
+/** SECTION 3 - HEADER GRID**/
 .header-container {
   margin: 0px 0px;
   text-align: center;
@@ -163,7 +168,7 @@ a {
   color: #b6997a;
 }
 
-/** COMPONENT 1 - NAV GRID**/
+/** SECTION 3 - NAV GRID**/
 .nav-container{
   font-size: 12px;
   font-family: 'jost';
@@ -193,7 +198,7 @@ a {
   color: #b6997a;
 }
 
-/**  COMPONENT 2 - MAIN **/
+/**  SECTION 4 - MAIN **/
 figure {
   position: relative;
 }
@@ -230,7 +235,7 @@ figcaption p {
   font-size: 20px;
 }
 
-/**  COMPONENT 3 - CAROSEL **/
+/**  SECTION 5 - CAROSEL **/
 .carosel h4 {
   padding: 10px 0px;
 }
@@ -244,8 +249,6 @@ figcaption p {
   padding: 20px 10px;
   border-top: 3px solid #deccba;
   border-bottom: 3px solid #deccba;
-}
-.card-image {
 }
 
 .image-container {
@@ -275,8 +278,6 @@ figcaption p {
   position: absolute;
   bottom: 150px;
   right: 0;
-  /* bottom: 58px;
-  right: -24px; */
 }
 
 .last-image-carosel:hover {
@@ -294,5 +295,64 @@ figcaption p {
   padding: 30px 5px;
 }
 .carosel-container {
+  position: relative;
+}
+
+/** SECTION 6 - SECONDARY **/
+
+.secondary-container {
+  position: relative;
+  text-align: center;
+  padding: 20px 10px;
+  border-top: 3px solid #deccba;
+  border-bottom: 3px solid #deccba;
+}
+
+.secondary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* display: flex;
+  justify-content: space-around; */
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.secondary-timebox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 90%;
+  background-color: #000;
+  width: 34px;
+  height: 20px;
+  color: #fff;
+  font-size: 10px;
+  position: absolute;
+  padding: 0px;
+  /* padding: 2px 2px; */
+  bottom: 0px;
+  right: 0px;
+}
+
+.secondary-card {
+  padding: 0px 10px;
+}
+
+.secondary-over {
+  overflow-x: hidden;
+}
+.secondary h5 {
+  text-align: left;
+  margin-top: 10px;
+}
+.secondary-details {
+  text-align: left;
+  font-size: 12px;
+}
+.secondary-image {
+  /* min-width: 260px; */
+}
+.secondary-image-container {
+  background-color: rgb(196, 244, 255);
   position: relative;
 }
