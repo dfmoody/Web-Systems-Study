@@ -530,3 +530,87 @@ input:checked + .slider:before {
   flex-direction: row;
   justify-content: space-around;
 }
+
+.plus {
+  margin-left: 5px;
+}
+.plus2 {
+  margin-left: 20px
+}
+/* SECTION 10: SIDE BAR NAVIGATION */
+
+.wordmark {
+  margin-top: 20px;
+  line-height: 0.85;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+@media (min-width: 45rem) {
+  .component-page__nav {
+    display: block;
+    grid-area: nav;
+    margin-top: 1.33rem;
+}
+}
+
+.sidebar-nav__section {
+  margin-top: 2.5rem;
+}
+.sidebar-nav__heading {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.sidebar-nav__heading a {
+  text-decoration: none;
+  color:#000000;
+}
+a:-webkit-any-link {
+  cursor: pointer;
+}
+.sidebar-nav__list {
+  list-style: none;
+  padding: 0;
+}
+.component-page__header ul {
+  display: block;
+  margin-block-start: .4em;
+  margin-block-end: .4em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 20px;
+}
+.sidebar-nav__list a {
+  text-decoration: none;
+}
+@media (min-width: 61rem) {
+  .component-page__header {
+    padding: 1rem;
+    position: fixed;
+    overflow-y: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 16rem;
+}
+}
+.component-page__header {
+  background:#deccba41;
+  z-index: 100;
+}
+
+.component-page__header-container {
+    position: static;
+    padding: 1rem 2rem;
+}
+
+.rightside-content {
+  margin-left: 25%;
+}
+
+@media (max-width: 61rem) {
+  .rightside-content {
+  margin-left: 0;
+}
+}

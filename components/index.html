@@ -12,6 +12,7 @@
     <script src="https://kit.fontawesome.com/7023abba24.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="rightside-content">
     <h1 class="component__header">Web Design System</h1>
 
     <p class="component__p">This is a collection of components based on my study of the design system from the NOWNESS website.</p>
@@ -19,8 +20,8 @@
     <!-- Section 1: Typography -->
     <!-- Components: Body, H1,H2,h4..., a-->
     <article class="component">
-        <h2 class="component__title">TYPOGRAPHY</h2>
-        <h4 class="component__name">body</h4>
+        <h2 class="component__title" id="typography">TYPOGRAPHY</h2>
+        <h4 class="component__name" id="body">body</h4>
 
         <div class="component__image">
             <img src="img/body.png" alt="body text image" width="510">
@@ -35,7 +36,7 @@
         </div>
     </article>
     <article class="component">
-        <h4 class="component__name">h1,h2,h3,h4,5</h4>
+        <h4 class="component__name" id="headings">h1,h2,h3,h4,h5</h4>
 
         <div class="component__image">
             <img class="site-image" src="img/H1.png" alt="header 1 image" width="410">
@@ -60,8 +61,8 @@
     <!-- Section 2: Atoms -->
     <!-- Components: Nav-Toggle, Icons, Button-->
     <article class="component">
-        <h2 class="component__title">ATOMS</h2>
-        <h4 class="component__name ">.nav-toggle</h4>
+        <h2 class="component__title" id="atoms">ATOMS</h2>
+        <h4 class="component__name" id="nav-toggle">.nav-toggle</h4>
 
         <div class="component__image">
             <img src="img/nav-toggle.jpg" alt="nav toggle" width="60" class="nav-space">
@@ -75,7 +76,7 @@
         </div>
     </article>
     <article class="component">
-        <h4 class="component__name ">.icons</h4>
+        <h4 class="component__name" id="icons">.icons</h4>
 
         <div class="component__image">
             <img src="img/Header-Icons.jpg" alt="icons" width="150" class="nav-space">
@@ -84,7 +85,7 @@
 
         <div class="component__code">
             <div class="atom-icons">
-                <ul class="icon-list">
+                <ul class="icon-list plus">
                     <li class="icon-header"><a href="#"><i class="fa-solid fa-magnifying-glass fa-rotate-90"></i></a></li>
                     <li class="icon-header"><a href="#"><i class="fa-solid fa-play"></i></a></li>
                     <li class="icon-header"><a href="#"><i class="fa-solid fa-user"></i></a></li>
@@ -95,7 +96,7 @@
     </article>
 
     <article class="component">
-        <h4 class="component__name ">.switch</h4>
+        <h4 class="component__name" id="switch">.switch</h4>
 
         <div class="component__image">
             <img src="img/switch-toggle.png" alt="switch" width="56" class="nav-space">
@@ -103,7 +104,7 @@
         </div>
 
         <div class="component__code">
-                    <div class="switch-container">
+                    <div class="switch-container plus">
                         <label class="switch">
                             <input type="checkbox" >
                                 <span class="slider"></span>
@@ -113,7 +114,7 @@
         </div>
     </article>
     <article class="component">
-        <h4 class="component__name ">.button</h4>
+        <h4 class="component__name" id="button">.button</h4>
 
         <div class="component__image">
             <img src="img/button.png" alt="switch" width="150" class="nav-space">
@@ -121,7 +122,7 @@
         </div>
 
         <div class="component__code">
-            <p><input class="submit-button" type="submit" value="SUBSCRIBE"></p>
+            <p><input class="submit-button plus2" type="submit" value="SUBSCRIBE"></p>
         <p class="name-box">CODE</p>
         </div>
     </article>
@@ -129,9 +130,9 @@
     <!-- Components: Header & Main Nav-->
 
     <article class="component">
-        <h2 class="component__title">PAGE HEADER</h2>
+        <h2 class="component__title" id="page-header">PAGE HEADER</h2>
 
-        <h4 class="component__name">.header</h4>
+        <h4 class="component__name" id="header">.header</h4>
 
         <div class="component__image">
             <img src="img/HeaderNav.png" alt="Screenshot of Website" width="1100">
@@ -167,8 +168,8 @@
     <!-- Section 4: Main-->
     <!-- Components: Main: Image, Video Play, Header, Paragraph -->
     <article class="component">
-        <h2 class="component__title">MAIN SECTION</h2>
-        <h4 class="component__name">.main</h4>
+        <h2 class="component__title" id="Main">MAIN</h2>
+        <h4 class="component__name" id="main">.main</h4>
         
 
         <div class="component__image">
@@ -194,9 +195,9 @@
      <!-- Section 5: Carosel-->
     <!-- Components: Image, Timebox, H4, Paragraph -->    
     <article class="component carosel-over">
-        <h2 class="component__title">CAROSEL</h2>
+        <h2 class="component__title" id="Carosel">CAROSEL</h2>
 
-        <h4 class="component__name">.carosel</h4>
+        <h4 class="component__name" id="carosel">.carosel</h4>
 
         <div class="component__image">
             <img src="img/Carosel.jpg" alt="Screenshot of Website" width="1100">
@@ -248,9 +249,9 @@
      <!-- Section 6: Secondary-->
     <!-- Components: H3, Card 2, Image, Timebox, H5, Paragraph -->    
     <article class="component">
-        <h2 class="component__title">SECONDARY</h2>
+        <h2 class="component__title" id="Secondary">SECONDARY</h2>
 
-        <h4 class="component__name">.secondary</h4>
+        <h4 class="component__name" id="secondary">.secondary</h4>
 
         <div class="component__image">
             <img src="img/Seconday2.jpg" alt="Screenshot of Website" width="1100">
@@ -296,9 +297,9 @@
     <!-- Section 7: More-->
     <!-- Components: H3, Image, Paragraph -->    
     <article class="component">
-        <h2 class="component__title">MORE</h2>
+        <h2 class="component__title" id="More">MORE</h2>
 
-        <h4 class="component__name">.more</h4>
+        <h4 class="component__name" id="more">.more</h4>
 
         <div class="component__image">
             <img src="img/More.jpg" alt="Screenshot of Website" width="1100">
@@ -342,9 +343,9 @@
     <!-- Section 8: Subscribe-->
     <!-- Components: H3, Paragraph, Form, Input-Email, Switch, Button -->    
     <article class="component subscribe-over">
-        <h2 class="component__title">SUBSCRIBE</h2>
+        <h2 class="component__title" id="Subscribe">SUBSCRIBE</h2>
 
-        <h4 class="component__name">.subscribe</h4>
+        <h4 class="component__name" id="subscribe">.subscribe</h4>
 
         <div class="component__image">
             <img src="img/Subscribe.jpg" alt="Screenshot of Website" width="1100">
@@ -382,11 +383,11 @@
     </article>  
     
     <!-- Section 9: Footer-->
-    <!-- Components: H3, Paragraph, Form, Input-Email, Switch, Button -->    
+    <!-- Components: Icons, Footer Nav -->    
     <article class="component subscribe-over">
-        <h2 class="component__title">FOOTER</h2>
+        <h2 class="component__title" id="Footer">FOOTER</h2>
 
-        <h4 class="component__name">.footer</h4>
+        <h4 class="component__name" id="footer">.footer</h4>
 
         <div class="component__image">
             <img src="img/Footer2.png" alt="Screenshot of Website" width="1100">
@@ -429,6 +430,93 @@
             </footer>
             <p class="name-box">CODE</p>
         </div>    
-    </article>    
+    </article>  
+    </div>
+    <!-- Section 10: Side NavBar-->
+    <div class="leftside-content">
+        <header class="component-page__header">
+            <div class="component-page__header-container">
+                <h1 class="wordmark">
+                <span class="wordmark__line">NOWNESS</span>
+                </h1>
+                <nav class="sidebar-nav component-page__nav">
+                <section class="sidebar-nav__section">
+                    <h2 class="sidebar-nav__heading">
+                    <a href="#typography">Typography</a>
+                    </h2>
+                    <ul class="sidebar-nav__list">
+                    <li><a href="#body">body</a></li>
+                    <li><a href="#headings">h1, h2, h3, ...</a></li>
+                    </ul>
+                </section>
+                <section class="sidebar-nav__section">
+                    <h2 class="sidebar-nav__heading"><a href="#atoms">Atoms</a></h2>
+                    <ul class="sidebar-nav__list">
+                    <li><a href="#nav-toggle">.nav-toggle</a></li>
+                    <li><a href="#icons">.icons</a></li>
+                    <li><a href="#switch">.switch</a></li>
+                    <li><a href="#button">.button</a></li>
+                    </ul>
+                </section>
+                <section class="sidebar-nav__section">
+                    <h2 class="sidebar-nav__heading">
+                    <a href="#page-header">Page Header</a>
+                    </h2>
+                    <ul class="sidebar-nav__list">
+                    <li><a href="#header">.header</a></li>
+                    </ul>
+                </section>
+                <section class="sidebar-nav__section">
+                    <h2 class="sidebar-nav__heading">
+                    <a href="#Main">Main</a>
+                    </h2>
+                    <ul class="sidebar-nav__list">
+                    <li><a href="#main">.main</a></li>
+                    </ul>
+                </section>
+                <section class="sidebar-nav__section">
+                    <h2 class="sidebar-nav__heading">
+                    <a href="#Carosel">Carosel</a>
+                    </h2>
+                    <ul class="sidebar-nav__list">
+                    <li><a href="#carosel">.carosel</a></li>
+                    </ul>
+                </section>
+                <section class="sidebar-nav__section">
+                    <h2 class="sidebar-nav__heading">
+                    <a href="#Secondary">Secondary</a>
+                    </h2>
+                    <ul class="sidebar-nav__list">
+                    <li><a href="#secondary">.secondary</a></li>
+                    </ul>
+                </section>
+                <section class="sidebar-nav__section">
+                    <h2 class="sidebar-nav__heading">
+                        <a href="#More">More</a>
+                    </h2>
+                    <ul class="sidebar-nav__list">
+                        <li><a href="#more">.more</a></li>
+                    </ul>
+                </section>
+                <section class="sidebar-nav__section">
+                    <h2 class="sidebar-nav__heading">
+                        <a href="#Subscribe">Subscribe</a>
+                    </h2>
+                    <ul class="sidebar-nav__list">
+                        <li><a href="#subscribe">.subscribe</a></li>
+                    </ul>
+                </section>
+                <section class="sidebar-nav__section">
+                    <h2 class="sidebar-nav__heading">
+                        <a href="#Footer">Footer</a>
+                    </h2>
+                    <ul class="sidebar-nav__list">
+                        <li><a href="#footer">.footer</a></li>
+                    </ul>
+                </section>
+                </nav>
+            </div>
+        </header>
+    </div>
 </body>
 </html>
