@@ -8,12 +8,13 @@
   padding: 0px;
 }
 html {
+  scroll-behavior: smooth;
   padding: 20px;
   box-sizing: border-box;
   --color-black: #000;
   --color-lightgrey: #b8b8b8;
   --color-white: #fff;
-  --color-tan: #b6997a;
+  --color-tan:;
   --color-light-tan: #deccba;
 }
 
@@ -543,7 +544,8 @@ input:checked + .slider:before {
   margin-top: 20px;
   line-height: 0.85;
   font-size: 1.7rem;
-  font-weight: 300;
+  font-weight: 400;
+  color: #503d29;
 }
 
 @media (min-width: 45rem) {
