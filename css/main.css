@@ -542,8 +542,8 @@ input:checked + .slider:before {
 .wordmark {
   margin-top: 20px;
   line-height: 0.85;
-  font-size: 1.6rem;
-  font-weight: 700;
+  font-size: 1.7rem;
+  font-weight: 300;
 }
 
 @media (min-width: 45rem) {
@@ -573,6 +573,12 @@ a:-webkit-any-link {
   list-style: none;
   padding: 0;
 }
+.leftside-content a:hover {
+  color: #6c6c6c;
+}
+.leftside-content h2:hover {
+  color: #6c6c6c;
+}
 .component-page__header ul {
   display: block;
   margin-block-start: .4em;
@@ -588,11 +594,10 @@ a:-webkit-any-link {
   .component-page__header {
     padding: 1rem;
     position: fixed;
-    overflow-y: auto;
     top: 0;
     bottom: 0;
     left: 0;
-    width: 16rem;
+    width: 240px;
 }
 }
 .component-page__header {
@@ -606,7 +611,7 @@ a:-webkit-any-link {
 }
 
 .rightside-content {
-  margin-left: 25%;
+  margin-left: 240px;
 }
 
 @media (max-width: 61rem) {
