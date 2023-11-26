@@ -16,4 +16,4 @@ Author
 Project Code: _Devin Moody _
 
 Source 
-Design: [Nowness.com](https://www.nowness.com/)https://www.nowness.com/
+Design: [Nowness.com](https://www.nowness.com/)
