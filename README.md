@@ -1,11 +1,11 @@
 # Web-Systems-Study
-Nowness Design System Study
-A Design System Study
+**Nowness Design System Study
+**
 
-About:
+**About:**
 
-This is a project for the Web Development course at the Minneapolis College of Art and Deisgn. 
-In this example, we dissect the excellent Nowness homepag, and then develop a simple component library from our study.
+_This is a project for the Web Development course at the Minneapolis College of Art and Deisgn. 
+In this example, we dissect the excellent Nowness homepage, and then develop a simple component library from our study._
 
 Initial Design Study
 Component Library
@@ -13,7 +13,7 @@ Component Library
 Homepage Recreation
 
 Author
-Project Code: Devin Moody 
+Project Code: _Devin Moody _
 
 Source 
-Design: Nowness
+Design: [Nowness.com](https://www.nowness.com/)https://www.nowness.com/
