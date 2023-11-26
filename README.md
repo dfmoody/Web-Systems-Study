@@ -13,7 +13,7 @@ Component Library
 Homepage Recreation
 
 Author
-Project Code: _Devin Moody _
+Project Code: Devin Moody
 
 Source 
 Design: [Nowness.com](https://www.nowness.com/)
