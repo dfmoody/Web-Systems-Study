@@ -9,7 +9,6 @@
 }
 html {
   scroll-behavior: smooth;
-  padding: 20px;
   box-sizing: border-box;
   --color-black: #000;
   --color-lightgrey: #b8b8b8;
@@ -45,7 +44,7 @@ h2 {
   font-size: 40px;
 }
 h3 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 300; 
   padding-top: 10px;
   padding-bottom: 10px; 
@@ -170,6 +169,12 @@ a {
 }
 
 /** SECTION 3 - NAV GRID**/
+.header-nav-container {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
 .nav-container{
   font-size: 12px;
   font-family: 'jost';
@@ -177,7 +182,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 400px 1fr;
   padding: 15px 0px;
-  border-top: 1px solid rgb(203, 203, 203);
+  border-top: 1px solid #deccba;
 }
 
 .nav-menu{
@@ -236,20 +241,24 @@ figcaption p {
   font-size: 20px;
 }
 
-/**  SECTION 5 - CAROSEL **/
-.carosel h4 {
+/**  SECTION 5 - CAROUSEL **/
+.carousel h4 {
   padding: 10px 0px;
 }
 .card-details {
   padding: 15px 0px;
 }
-.carosel {
+.carousel {
   display: flex;
   justify-content: space-around;
   text-align: center;
   padding: 20px 10px;
-  border-top: 3px solid #deccba;
-  border-bottom: 3px solid #deccba;
+  border-top: 2px solid #deccba;
+  border-bottom: 2px solid #deccba;
+}
+.card-image {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .image-container {
@@ -275,28 +284,30 @@ figcaption p {
   right: 0px;
 }
 
-.last-image-carosel {
+.last-image-carousel {
   position: absolute;
   bottom: 150px;
   right: 0;
 }
 
-.last-image-carosel:hover {
+.last-image-carousel:hover {
   cursor: pointer;
 }
 
-.carosel-card {
+.carousel-card {
   padding: 0px 10px;
 }
 
-.carosel-over {
+.carousel-over {
   overflow-x: hidden;
 }
 .extra {
   padding: 30px 5px;
 }
-.carosel-container {
+.carousel-container {
   position: relative;
+  margin-top: 35px;
+  margin-bottom: 10px;
 }
 
 /** SECTION 6 - SECONDARY **/
@@ -305,8 +316,6 @@ figcaption p {
   position: relative;
   text-align: center;
   padding: 20px 10px;
-  border-top: 3px solid #deccba;
-  border-bottom: 3px solid #deccba;
 }
 
 .secondary {
@@ -330,8 +339,7 @@ figcaption p {
   font-size: 10px;
   position: absolute;
   padding: 0px;
-  /* padding: 2px 2px; */
-  bottom: 0px;
+  bottom: 4px;
   right: 0px;
 }
 
@@ -350,23 +358,33 @@ figcaption p {
   text-align: left;
   font-size: 12px;
 }
+
 .secondary-image {
-  /* min-width: 260px; */
+  max-width: 100%;
+  max-height: 100%;
 }
 .secondary-image-container {
-  background-color: rgb(196, 244, 255);
+  width: fit-content;
+  height: fit-content;
   position: relative;
 }
 
 /** SECTION 7 - MORE **/
+.more-container {
+  border-top: 2px solid #deccba;
+  border-bottom: 2px solid #deccba;
+}
 .more {
   padding: 20px;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 30px;
+  grid-template-columns: repeat(3, 1fr 1.5fr);
+  grid-gap: 35px;
 }
 .more-container h3 {
+  font-size: 22px;
+  margin-top: 30px;
   text-align: center;
+  margin-bottom: 15px;
 }
 
 .more-info h4 {
@@ -375,8 +393,14 @@ figcaption p {
 }
 
 .more-info p {
-  font-size: 11px;
-  line-height: 0.9rem;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 1.3rem;
+}
+
+.more-image img{
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /** SECTION 8 - SUBSCRIBE **/
@@ -387,9 +411,7 @@ figcaption p {
   align-items: center;
   position: relative;
   text-align: center;
-  padding: 20px 10px;
-  border-top: 3px solid #deccba;
-  border-bottom: 3px solid #deccba;
+  padding: 35px 10px;
 }
 .subscribe h3 {
   font-size: 26px;
@@ -523,6 +545,7 @@ input:checked + .slider:before {
 .footer-nav {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .footer-container {
   width: 90%;

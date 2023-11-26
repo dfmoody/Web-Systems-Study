@@ -1,109 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-      Web System
-    </title>
+    <title>Components | NOWNESS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main1.css">
+    <link rel="stylesheet" href="../css/normalize.css">
     <script src="https://kit.fontawesome.com/7023abba24.js" crossorigin="anonymous"></script>
-
   </head>
+
   <body>
 
-    <!-- Component 1: Header & Main Nav-->
-    <img src="components/img/HeaderNav.png" alt="Screenshot of Website" width="1100">
+    <!-- Section 1: Header-->
+    <!-- Components: Header & Main Nav-->
+      <div class="header-nav-container">
+        <header class="header-container">
+            <div class="dropdown"><a href="#"><i class="fa-solid fa-bars"></i></a>
+            </div>
+                
+            <h1>NOWNESS</h1>
 
-    <header class="header-container">
-        <div class="dropdown"><a href="#"><i class="fa-solid fa-bars"></i></a>
+            <div class="header-icons">
+            <ul class="icon-list">
+                <li class="icon-header"><a href="#"><i class="fa-solid fa-magnifying-glass fa-rotate-90"></i></a></li>
+                <li class="icon-header"><a href="#"><i class="fa-solid fa-play"></i></a></li>
+                <li class="icon-header"><a href="#"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+            </div>
+        </header>
+        <nav class="nav-container">
+        <div class="nav-menu">
+            <a href="#" class="nav-link">SERIES</a>
+            <a href="#" class="nav-link">TOPICS</a>
+            <a href="#" class="nav-link">PICKS</a>
+            <a href="#" class="nav-link">SPECIAL PROGRAMS</a>
         </div>
-            
-        <h1 class="site-name">NOWNESS</h1>
+        </nav>
+      </div>
 
-        <div class="header-icons">
-          <ul class="icon-list">
-            <li class="icon-header"><a href="#"><i class="fa-solid fa-magnifying-glass fa-rotate-90"></i></a></li>
-            <li class="icon-header"><a href="#"><i class="fa-solid fa-play"></i></a></li>
-            <li class="icon-header"><a href="#"><i class="fa-solid fa-user"></i></a></li>
-          </ul>
-        </div>
-    </header>
+    <!-- Section 2: Main-->
+    <!-- Components: Main: Image, Video Play, Header, Paragraph -->
+      <article class="main"> 
+          <figure class="main-container">
+          <img class="main-image" src="../img/mainphoto.jpg" alt="random unsplash image">
+          <figcaption> 
+              <i class="fa-regular fa-circle-play"></i>
+              <h2>Process and Focus</h2>
+              <p>Travelling through Peru, fasion brand Lauren Manoogian finds clarity in the craft that brings its vision into being.</p>
+          </figcaption>
+          </figure>
+      </article>  
+
+
+    <!-- Section 3: Carousel-->
+    <!-- Components: Image, Timebox, H4, Paragraph -->    
+      <div class="carousel-container">
+        <section class="carousel">
+            <div class="carousel-card">
+                <h4>October 30</h4>
+                <div class="image-container">
+                <img class="card-image" src="../img/carosel1.jpg" alt="random unsplash image">
+                <p class="card-timebox"> 12:19</p>
+                </div>
+                <p class="card-details">Private View: Limb after Limb</p>
+            </div>
+            <div class="carousel-card">
+                <h4>October 27</h4>
+                <div class="image-container">
+                <img class="card-image" src="../img/carosel2b.jpg" alt="random unsplash image">
+                <p class="card-timebox"> 19:04</p>
+                </div>
+                <p class="card-details">NOWNESS Shorts: Blood Rites.</p>
+            </div>
+            <div class="carousel-card">
+                <h4>October 25</h4>
+                <div class="image-container">
+                <img class="card-image" src="../img/carosel3b.jpg" alt="random unsplash image">
+                <p class="card-timebox"> 02:32</p>
+                </div>
+                <p class="card-details">Video Art Visions: Quiladelphia</p>
+            </div>
+            <div class="carousel-card">
+                <h4>October 23</h4>
+                <div class="image-container">
+                <img class="card-image" src="../img/carosel4b.jpg" alt="random unsplash image">
+                <p class="card-timebox"> 03:53</p>
+                </div>
+                <p class="card-details">Great Escapes: La Iglesia de Tas</p>
+            </div>
+        </section>
+          <img class="last-image-carousel" src="img/rightarrow.jpg" alt="right facing arrow" height="35">
+      </div>
+
+
+    <!-- Section 4: Secondary-->
+    <!-- Components: H3, Card 2, Image, Timebox, H5, Paragraph -->    
+      <div class="secondary-container">
+          <h3>TIME & PLACE</h3>
+
+        <section class="secondary">
+
+            <div class="secondary-card">
+                <div class="secondary-image-container">
+                <img class="secondary-image" src="../img/secondary1c.jpg" alt="random unsplash image">
+                <p class="secondary-timebox"> 02:18</p>
+                </div>
+                <h5>How Long Is Now?</h5>
+                <p class="secondary-details">Dance communicates the interactions that shape our experience of the present in a short film from Barcelona fragrance brand 27 87</p>
+            </div>
+            <div class="secondary-card">
+                <div class="secondary-image-container">
+                <img class="secondary-image" src="../img/secondary2c.jpg" alt="random unsplash image">
+                <p class="secondary-timebox"> 02:52</p>
+                </div>
+                <h5>Poetic License: the list of stupid question I ask myself when I'm high</h5>
+                <p class="secondary-details">Sergi Shevtsov ponders life's big questions and mindless reflections in a surreal space where time stands still</p>
+            </div>
+            <div class="secondary-card">
+                <div class="secondary-image-container">
+                <img class="secondary-image" src="../img/secondary3c.jpg" alt="random unsplash image">
+                <p class="secondary-timebox"> 09:08</p>
+                </div>
+                <h5>LoveSick: Secret Place</h5>
+                <p class="secondary-details">Ryan Zemke revists lives lived through the imagination, and the people and places that define both our memories and sense of self</p>
+            </div>
+        </section>
+      </div>
     
-    <nav class="nav-container">
-      <div class="nav-menu">
-        <a href="#" class="nav-link">SERIES</a>
-        <a href="#" class="nav-link">TOPICS</a>
-        <a href="#" class="nav-link">PICKS</a>
-        <a href="#" class="nav-link">SPECIAL PROGRAMS</a>
-      </div>
-    </nav>
 
-    <!-- Component 2: Main: Image, Video Play, Header, Paragraph -->
-    <img src="components/img/Main.jpg" alt="Screenshot of Website" width="1100">
-    <!-- <main>
-    <figure class="main-container">
-      <video src="video/stockvideo.mp4" width="100%" autoplay muted loop></video>
-      <figcaption> 
-        <i class="fa-regular fa-circle-play"></i>
-        <h2>Process and Focus</h2>
-        <p>Travelling through Peru, fasion brand Lauren Manoogian finds clarity in the craft that brings its vision into being.</p>
-      </figcaption>
-    </figure>
-    </main>
-    <main> -->
-    <figure class="main-container">
-      <img class="main-image" src="https://source.unsplash.com/random/1100x600?v=5" alt="random unsplash image">
-      <figcaption> 
-        <i class="fa-regular fa-circle-play"></i>
-        <h2>Process and Focus</h2>
-        <p>Travelling through Peru, fasion brand Lauren Manoogian finds clarity in the craft that brings its vision into being.</p>
-      </figcaption>
-    </figure>
-    </main>
-    <img src="components/img/Carosel.jpg" alt="Screenshot of Website" width="1100">
-    <section class="carosel">
-      <div class="carosel-card">
-        <h4>October 30</h4>
-        <div class="image-container">
-          <img class="card-image" src="https://source.unsplash.com/random/250x160?v=1" alt="random unsplash image">
-          <p class="card-timebox"> 12:19</p>
-        </div>
-        <p class="card-details">Private View: Limb after Limb</p>
+    <!-- Section 5: More-->
+    <!-- Components: H3, Image, Paragraph -->    
+      <div class="more-container">
+          <h3>MORE TO LOVE</h3>
+
+        <section class="more">
+            <div class="more-image">
+                <img src="../img/more1.jpg" alt="random unsplash image">
+            </div>
+            <div class="more-info">
+                <h4>GUCCI COSMOS</h4>
+                <p class="more-details">
+                The Italian fashion house's travelling archival exhibition arrives at 180 Studios, presenting an immersive exploration of era-defining creativity. With exhibition design by contemporary artist Es Devlin, Gucci Cosmos traces one of many possible constellations connecting the ideas and inventions set in motion by the creative directors and artisans over the past 102 years. Italian fashion theorist and critic Maria Luisa Frisa has drawn together treasures, many of which take their first trip outside of the archive, to portray how Gucci has and continues to not only mirror the times, but also define them. 11 October - 31 December 2023.</p>
+            </div>
+            <div class="more-image">
+                <img src="../img/more2.jpg" alt="random unsplash image">
+            </div>
+            <div class="more-info">
+                <h4>UVA — Synchronicity</h4>
+                <p class="more-details">
+                Pioneering immersive art collective United Visual Artists unveil their largest ever exhibition, taking over the subterranean spaces of 180 Studios. Marking the artist's 20th anniversary, and challenging our perception of reality, among eight new large-scale immersive works and sensory-heightening premieres, a brand new audiovisual installation explores the relationship between humans and animals, featuring a mesmerising soundscape created by legendary bioacoustician Bernie Krause. UVA's experimental practice uses light, space, sound and custom-made “kinetic instruments” to create dynamic, immersive experiences and atmospheric performances that envelop the viewer and transfigure vast architectural spaces through the interplay of light and shadow. 12 October - 17 December 2023.</p>
+            </div>
+            <div class="more-image">
+                <img src="../img/more3.jpg" alt="random unsplash image">
+            </div>
+            <div class="more-info">
+                <h4>Cugoano250: Julianknxx Performance - Chorus in Flight</h4>
+                <p class="more-details">
+                Coinciding with Frieze London and his exhibition Chorus in Rememory of Flight at Barbican, Julianknxx takes the stage at St James's Piccadilly for Ekow Eshuns' Cugoano250 programme in ode to abolitionist and historial figure in Black Britain, Quobna Ottobah Cugoano. Performing songs which echo the notion of 'flight' in relation to Africa, the interdisciplinary artist, poet, and filmmaker assembles a special performance with a community choir and other collaborators for a choral performance commemorating the 250th anniversary of the baptism of Cugoano at St James's. From 7pm, 14 October 2023.</p>
+            </div>
+        </section>
       </div>
-      <div class="carosel-card">
-        <h4>October 27</h4>
-        <div class="image-container">
-          <img class="card-image" src="https://source.unsplash.com/random/250x160?v=2" alt="random unsplash image">
-          <p class="card-timebox"> 19:04</p>
-        </div>
-        <p class="card-details">NOWNESS Shorts: Blood Rites.</p>
+
+
+    <!-- Section 6: Subscribe-->
+    <!-- Components: H3, Paragraph, Form, Input-Email, Switch, Button -->    
+      <div class="subscribe-container">
+          <section class="subscribe">
+          <h3>SUBSCRIBE TO THE NOWNESS NEWSLETTER</h3>
+          <p>Be the first to hear about our latest releases</p>
+          <form name="subscribe" action="myform.php" method="post">
+              <input class="email" type="text" name="email" placeholder="Email">
+
+              <div class="switch-container">
+                  <label class="switch">
+                      <input type="checkbox" >
+                          <span class="slider"></span>
+                  </label>
+                  <p>I would like to recieve the NOWNESS newsletter</p>
+              </div>
+              <div class="switch-container">
+                  <label class="switch">
+                      <input type="checkbox" >
+                          <span class="slider"></span>
+                  </label>
+                  <p>I would like to recieve emails from selected NOWNESS partners featuring exclusive offers</p>
+              </div>
+              <p><input class="submit-button" type="submit" value="SUBSCRIBE"></p>
+          </form>
+          </section>
       </div>
-      <div class="carosel-card">
-        <h4>October 25</h4>
-        <div class="image-container">
-          <img class="card-image" src="https://source.unsplash.com/random/250x160?v=3" alt="random unsplash image">
-          <p class="card-timebox"> 02:32</p>
-        </div>
-        <p class="card-details">Video Art Visions: Quiladelphia</p>
-      </div>
-      <div class="carosel-card">
-        <h4>October 23</h4>
-        <div class="image-container">
-          <img class="card-image" src="https://source.unsplash.com/random/250x160?v=4" alt="random unsplash image">
-          <p class="card-timebox"> 03:53</p>
-          <img class="last-image-carosel" src="img/caroselarrow.jpg" alt="left facing arrow" height="40">
-        </div>
-        <p class="card-details">Great Escapes: La Iglesia de Tas</p>
-      </div>
-      
-    </section>
-    <!-- <Footer>
-      <p>Stock footage provided by Freepik, downloaded from videvo.net</p>
-    </Footer> -->
+    
+
+    <!-- Section 7: Footer-->
+    <!-- Components: Icons, Footer Nav -->    
+      <footer>
+          <div class="footer-icons">
+            <ul class="footer-list">
+                <li class="icon-footer"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+
+                <li class="icon-footer"><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+
+                <li class="icon-footer"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+
+                <li class="icon-footer"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+
+                <li class="icon-footer"><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+
+                <li class="icon-footer"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+
+                <li class="icon-footer"><a href="#"><i class="fa-brands fa-vimeo-v"></i></a></li>
+
+                <li class="icon-footer"><a href="#"><i class="fa-solid fa-comments"></i></a></li>
+            </ul>
+          </div>
+          <nav class="footer-nav">
+              <div class="footer-container">
+              <a href="#" class="footer-link">BECOME A MEMBER</a>
+              <a href="#" class="footer-link">ABOUT US</a>
+              <a href="#" class="footer-link">CONTACT US</a>
+              <a href="#" class="footer-link">PRIVACY</a>
+              <a href="#" class="footer-link">TERMS OF SERVICE</a>
+              <a href="#" class="footer-link">BECOME A CONTRIBUTOR</a>
+              <a href="#" class="footer-link">SITE PARTNERS</a>
+              <a href="#" class="footer-link">RSS</a>
+              </div>
+          </nav>
+      </footer> 
   </body>
 </html>
