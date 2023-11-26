@@ -236,14 +236,14 @@ figcaption p {
   font-size: 20px;
 }
 
-/**  SECTION 5 - CAROSEL **/
-.carosel h4 {
+/**  SECTION 5 - CAROUSEL **/
+.carousel h4 {
   padding: 10px 0px;
 }
 .card-details {
   padding: 15px 0px;
 }
-.carosel {
+.carousel {
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -275,27 +275,27 @@ figcaption p {
   right: 0px;
 }
 
-.last-image-carosel {
+.last-image-carousel {
   position: absolute;
   bottom: 150px;
   right: 0;
 }
 
-.last-image-carosel:hover {
+.last-image-carousel:hover {
   cursor: pointer;
 }
 
-.carosel-card {
+.carousel-card {
   padding: 0px 10px;
 }
 
-.carosel-over {
+.carousel-over {
   overflow-x: hidden;
 }
 .extra {
   padding: 30px 5px;
 }
-.carosel-container {
+.carousel-container {
   position: relative;
 }
 
