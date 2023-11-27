@@ -419,8 +419,72 @@ input:checked + .slider:before {
   transform: translateX(22px)
 }
 
-/** SECTION 6 - MORE **/
+/** SECTION 6 - MOST WATCHED **/
+.most-container {
+  position: relative;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.most-watched {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.most-text {
+  font-size: 12px;
+  text-align: center;
+  max-width: 375px;
+}
+
+.most-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.most-card-final {
+  border-left: 2px solid #deccba;
+}
+
+.most-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+.most-image-container {
+  justify-content: center;
+  justify-items: center;
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.most-timebox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 90%;
+  background-color: #000;
+  width: 34px;
+  height: 20px;
+  color: #fff;
+  font-size: 10px;
+  position: absolute;
+  padding: 0px;
+  bottom: 4px;
+  right: 0px;
+}
+
+/** SECTION 7 - MORE **/
 .more-container {
+  border-top: 2px solid #deccba;
+  margin-bottom: 25px;
 }
 .more {
   padding: 20px;
@@ -451,7 +515,7 @@ input:checked + .slider:before {
   max-height: 100%;
 }
 
-/** SECTION 7 - FOOTER **/
+/** SECTION 8 - FOOTER **/
 .footer-icons {
   display: flex;
   justify-content: center;
