@@ -306,42 +306,10 @@ figcaption p {
   position: relative;
 }
 
-/** SECTION 5 - MORE **/
-.more-container {
+/** SECTION 5 - SUBSCRIBE **/
+.subscribe-container {
   border-top: 2px solid #deccba;
   border-bottom: 2px solid #deccba;
-}
-.more {
-  padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr 1.5fr);
-  grid-gap: 35px;
-}
-.more-container h3 {
-  font-size: 22px;
-  margin-top: 30px;
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-.more-info h4 {
-  font-size: 13px;
-  line-height: 1.25rem;
-}
-
-.more-info p {
-  font-weight: 200;
-  font-size: 14px;
-  line-height: 1.3rem;
-}
-
-.more-image img{
-  max-width: 100%;
-  max-height: 100%;
-}
-
-/** SECTION 6 - SUBSCRIBE **/
-.subscribe-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -451,7 +419,39 @@ input:checked + .slider:before {
   transform: translateX(22px)
 }
 
-/** SECTION 8 - FOOTER **/
+/** SECTION 6 - MORE **/
+.more-container {
+}
+.more {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr 1.5fr);
+  grid-gap: 35px;
+}
+.more-container h3 {
+  font-size: 22px;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.more-info h4 {
+  font-size: 13px;
+  line-height: 1.25rem;
+}
+
+.more-info p {
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 1.3rem;
+}
+
+.more-image img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/** SECTION 7 - FOOTER **/
 .footer-icons {
   display: flex;
   justify-content: center;
