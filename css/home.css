@@ -517,6 +517,15 @@ input:checked + .slider:before {
   text-decoration: none;
 }
 
+.share-image img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.share-image img:hover{
+  cursor: pointer;
+}
+
 .share h4 {
   font-size: 18px;
   margin: 0px;
@@ -557,7 +566,7 @@ input:checked + .slider:before {
 }
 
 
-/** SECTION 8 - CONNECt **/
+/** SECTION 8 - CONNECT **/
 
 .connect-container {
   border-top: 2px solid #deccba;
