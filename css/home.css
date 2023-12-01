@@ -67,7 +67,9 @@ a {
   color: #000;
 }
 
+
 /** SECTION 1 - HEADER/NAV **/
+
 .header-container {
   margin: 0px 0px;
   text-align: center;
@@ -140,7 +142,9 @@ a {
   color: #b6997a;
 }
 
+
 /**  SECTION 2 - MAIN **/
+
 figure {
   position: relative;
 }
@@ -249,8 +253,12 @@ figcaption p {
   margin-bottom: 10px;
 }
 
+
 /** SECTION 4 - SECONDARY **/
 
+.secondary-container-b {
+  border-top: 2px solid #deccba;
+}
 .secondary-container {
   position: relative;
   text-align: center;
@@ -306,7 +314,9 @@ figcaption p {
   position: relative;
 }
 
+
 /** SECTION 5 - SUBSCRIBE **/
+
 .subscribe-container {
   border-top: 2px solid #deccba;
   border-bottom: 2px solid #deccba;
@@ -419,7 +429,9 @@ input:checked + .slider:before {
   transform: translateX(22px)
 }
 
+
 /** SECTION 6 - MOST WATCHED **/
+
 .most-container {
   position: relative;
   text-align: center;
@@ -481,7 +493,9 @@ input:checked + .slider:before {
   right: 0px;
 }
 
+
 /** SECTION 7 - MORE **/
+
 .more-container {
   border-top: 2px solid #deccba;
   margin-bottom: 25px;
@@ -515,7 +529,9 @@ input:checked + .slider:before {
   max-height: 100%;
 }
 
+
 /** SECTION 8 - FOOTER **/
+
 .footer-icons {
   display: flex;
   justify-content: center;
