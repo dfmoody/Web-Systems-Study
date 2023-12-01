@@ -469,6 +469,7 @@ input:checked + .slider:before {
   max-width: 100%;
   max-height: 100%;
 }
+
 .most-image-container {
   justify-content: center;
   justify-items: center;
@@ -494,7 +495,68 @@ input:checked + .slider:before {
 }
 
 
-/** SECTION 7 - MORE **/
+/** SECTION 7 - SHARE **/
+.share-container {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  border-top: 2px solid #deccba;
+}
+.share {
+  margin-top: 30px;
+  padding: 0px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.share-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.share-details a {
+  text-decoration: none;
+}
+
+.share h4 {
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+}
+.small-details {
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.share-link:hover {
+  color: #b6997a;
+}
+.share-details {
+  line-height: 2.5;
+  font-size: 17px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-button {
+  text-decoration: none;
+  font-size: 13px;
+  color: #535353;
+  background-color: #fff;
+  width: 110px;
+  height: 35px;
+  border: 1px solid black;
+}
+
+.share-button:hover {
+  background-color: #b6997a;
+  color: #fff;
+  transition: .2s;
+}
+
+/** SECTION 8 - MORE **/
 
 .more-container {
   border-top: 2px solid #deccba;
@@ -530,7 +592,7 @@ input:checked + .slider:before {
 }
 
 
-/** SECTION 8 - FOOTER **/
+/** SECTION 9 - FOOTER **/
 
 .footer-icons {
   display: flex;
